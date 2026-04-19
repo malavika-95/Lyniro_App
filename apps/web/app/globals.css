@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================
+   Custom styles extracted from design HTML
+   ========================================== */
+
+/* Minimal custom CSS for things Tailwind doesn't do natively easily */
+        .progress-bar-fill {
+            transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .task-card:hover .action-buttons {
+            opacity: 1;
+        }
+
+.progress-bar-fill {
+            transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
